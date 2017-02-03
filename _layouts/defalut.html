@@ -5,26 +5,33 @@
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/default.css" />
 		<link rel="stylesheet" type="text/css" href="/css/pretty_code.css" />
+		<link rel="alternate" type="application/atom+xml" href="http://danhixon.github.com/atom.xml" />
 	</head>
 	<body>
-		<nav>
-		<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="/about">About</a></li>
-			<li><a href="/cv">CV</a></li>
-			<li><a href="/blog">Blog</a></li>
-		</ul>
-		</nav>
+		<div id="wrap">
+			<div id="header">
+				<p id="toplinks">
+
+				</p>
+
+				<h1><a href="/"><div id="logo"></div>路吉娜<span class="fade">duper</span></a></h1>
+				<div class="slogan">
+					<a href="/" class="pink">Home</a> :|: 
+					<a href="/about" class="green">About</a> :|: 
+					<a href="/blog" class="orange">Blog</a>
+				</div>
+			</div>
+		</div>
 		<div class="container">
 
 		{{ content }}
 
 		</div><!-- /.container -->
-		<footer>
+		<div id="footer">
 		<ul>
 			<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-			<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
+			<li><a href="https://github.com/lujina">github.com/lujina</a></li>
 			</ul>
-		</footer>
+		</div>
 	</body>
 </html>
