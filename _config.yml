@@ -1,2 +1,3 @@
 name: 路吉娜, 私人博客
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
