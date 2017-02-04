@@ -1,3 +1,7 @@
 ---
 layout: post
+title: EGit的使用
+date: 2017-02-04
 ---
+
+今天第一次使用EGit将项目[spring-web](https://github.com/lujina/spring-web)从本地的eclipse提交到github上。虽然成功了，但是操作过程还是迷迷糊糊的。
